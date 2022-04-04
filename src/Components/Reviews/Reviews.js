@@ -11,7 +11,9 @@ const Reviews = () => {
                 <h2 className='review-heading'><span className='review'>What our customers say!</span></h2>
                 <Row xs={1} md={2} lg={3} className="g-4 h-100">
                     {
-                        reviews.map(review => <Review review={review} />)
+                        reviews.map(review => <Review 
+                            key={review.id}
+                            review={review} />)
                     }
                 </Row>
             </Container>
