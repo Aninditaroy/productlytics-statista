@@ -4,9 +4,10 @@ import DashboardLineChart from '../DashboardLineChart/DashboardLineChart';
 import DashboardStackedAreaChart from '../DashboardStackedAreaChart/DashboardStackedAreaChart';
 import StackedBarChart from '../StackedBarChart/StackedBarChart';
 import TwoLevelPieChart from '../TwoLevelPieChart/TwoLevelPieChart';
+import './Dashboard.css';
 const Dashboard = () => {
     return (
-        <Container>
+        <Container className='dashboard'>
             <Row>
                 <Col className='ps-0'> <DashboardLineChart></DashboardLineChart>
                 </Col>
