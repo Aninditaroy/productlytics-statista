@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import Product from "../../Assests/Images/product.png";
 import useReviews from '../../Hooks/useReviews';
-import Review from '../../Review/Review';
+import Review from '../Review/Review';
 import './Home.css';
 const Home = () => {
     const navigate = useNavigate();
