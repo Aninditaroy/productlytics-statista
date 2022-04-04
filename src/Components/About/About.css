@@ -1,0 +1,13 @@
+.about-img {
+    margin-top: 150px;
+    width: 50%;
+}
+.about-heading {
+    color:#914DE0;
+}
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .about-img {
+        margin-top: 150px;
+        width: 90%;
+    }
+}
