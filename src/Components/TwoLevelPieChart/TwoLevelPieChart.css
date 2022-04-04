@@ -1,0 +1,24 @@
+.pie-Investment {
+    color: #7327cc;
+    margin-top: 120px;
+    padding-left: 60px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.pie-chart {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .pie-Investment {
+        padding-left: 35px;
+        margin-top: 50px;
+    }
+
+    .pie-chart {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}

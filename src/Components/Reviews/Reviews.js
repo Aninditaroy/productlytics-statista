@@ -3,7 +3,6 @@ import { Card } from 'react-bootstrap';
 import './Reviews.css';
 const Reviews = ({ review }) => {
     const { review_details, image, full_name,rating } = review;
-    console.log(review_details)
     return (
         <div>
             <Card className='review-container'> 
