@@ -2,7 +2,8 @@
     margin-top: 120px;
 }
 .home-section h1{
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: 700;
 }
 .details-section {
     margin: 0;
@@ -13,7 +14,14 @@
 .home-section .details-section {
     padding-left: 30px;
 }
-
+.know-more-btn {
+    background-color: #7327CC;
+    padding: 8px 15px;
+}
+.know-more-btn a {
+    text-decoration: none;
+    color: white;
+}
 @media screen and (min-width: 320px) and (max-width: 600px){
     .home-section {
         margin-top: 130px;
