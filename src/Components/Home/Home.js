@@ -16,7 +16,7 @@ const Home = () => {
                         <h1 >Say Hello to Your next iMac</h1>
                         <h1 className='heading-color'>Fit perfectly into your life.</h1>
                         <div className='ps-5 pe-5 m-3'>
-                            <p>iMac was designed to minimize its impact on the environment. All of the virgin wood fiber in its packaging comes exclusively from responsibly managed forests. The rare earth elements in the speakers, fan motor, and power connector magnets are completely recycled. And we're committed to transitioning our entire manufacturing supply chain to 100 percent renewable electricity by 2030.</p>
+                            <p className='fs-4'>iMac was designed to minimize its impact on the environment. All of the virgin wood fiber in its packaging comes exclusively from responsibly managed forests. The rare earth elements in the speakers, fan motor, and power connector magnets are completely recycled. And we're committed to transitioning our entire manufacturing supply chain to 100 percent renewable electricity by 2030.</p>
                         </div>
                         <button className='btn know-more-btn'><a target='_blank ' href="https://www.apple.com/imac-24/">Know More</a></button>
                     </Col>
@@ -29,7 +29,7 @@ const Home = () => {
                 <div>
                     <h1 className='mt-5 mb-5 pt-5 fw-bold'>Customer Reviews({reviews.length})</h1>
                     <Row xs={1} md={3} className="g-4">
-                            {
+                            { 
                                 reviews.map((review, index) =>
                                     <Reviews key={index}
                                         review={review} />)

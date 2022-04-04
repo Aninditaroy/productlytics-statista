@@ -1,49 +1,49 @@
 [{
     "id": 1,
     "full_name": "Demetra Boord",
-    "review_details": "Persevering",
-    "rating": 1,
-    "image": "http://dummyimage.com/218x100.png/5fa2dd/ffffff"
+    "review_details": "The Apple iMac 2021 (24-inch) is a breath of fresh air for the aging iMac line, bringing with it a beautiful display, an excellent webcam and an array of bright new color schemes.",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
   }, {
     "id": 2,
     "full_name": "Jemimah Scrivinor",
-    "review_details": "Enhanced",
-    "rating": 2,
-    "image": "http://dummyimage.com/241x100.png/ff4444/ffffff"
+    "review_details": "Great processor,Fun colors and sleek design,The webcam is actually good",
+    "rating": 5,
+    "image": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
   }, {
     "id": 3,
     "full_name": "Alie Morteo",
-    "review_details": "real-time",
+    "review_details": "The iMac is an improvement on its 21.5-inch predecessor in pretty much every way. It's got a better, larger screen, a new modern and colorful design, and delivers excellent performance - all for the same price. If you've been eyeing up an all-in-one for work and play, this is an excellent choice.",
     "rating": 3,
-    "image": "http://dummyimage.com/210x100.png/5fa2dd/ffffff"
+    "image": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   }, {
     "id": 4,
     "full_name": "Roy Pitt",
-    "review_details": "toolset",
-    "rating": 4,
-    "image": "http://dummyimage.com/103x100.png/ff4444/ffffff"
+    "review_details": "Elegant and attractively,minimalist design,M1 chip is fast,Runs iOS and macOS apps but Pricier than buying the M1 Mac mini,Restrictive selection of ports",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   }, {
     "id": 5,
     "full_name": "Sandie Ascroft",
-    "review_details": "methodical",
+    "review_details": "This new iMac design is an absolute stunner.The 4.5K retina screen is as good as we've come to expect from Apple.Beautiful Retina display.Magic Keyboard now includes TouchID",
     "rating": 5,
-    "image": "http://dummyimage.com/237x100.png/5fa2dd/ffffff"
+    "image": "https://images.unsplash.com/photo-1525875975471-999f65706a10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   }, {
     "id": 6,
     "full_name": "Minni Pellitt",
-    "review_details": "policy",
-    "rating": 6,
-    "image": "http://dummyimage.com/176x100.png/cc0000/ffffff"
+    "review_details": "Buy if you--  You want a fast, reliable family computer.You have limited space for a desktop and want something that looks nice. Don't buy if -- You haven't used macOS before and don't want to learn a new OS.You prefer the Google and Microsoft ecosystems.",
+    "rating": 3.5,
+    "image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   }, {
     "id": 7,
     "full_name": "Lorettalorna Chown",
-    "review_details": "Optimized",
-    "rating": 7,
-    "image": "http://dummyimage.com/109x100.png/cc0000/ffffff"
+    "review_details": "The M1 iMac (2021) brings both a visual refresh and brand new hardware to Apple's consumer-friendly all-in-one, with some fun colors and a display you need to see to believe.",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   }, {
     "id": 8,
     "full_name": "Alleen Ussher",
-    "review_details": "modular",
-    "rating": 8,
-    "image": "http://dummyimage.com/173x100.png/5fa2dd/ffffff"
+    "review_details": "The new iMac (M1, 2021) is a massive improvement over its predecessor, offering excellent performance, a beautiful Retina display, great sound, and a slick, colorful look. Power users who need more memory or a more powerful graphics chip may want to wait for an update to the iMac Pro line, but just about everyone else should be satisfied by this hardware.",
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   }]

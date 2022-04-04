@@ -2,16 +2,20 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Reviews.css';
 const Reviews = ({ review }) => {
-    const { review_details, image, full_name } = review;
+    const { review_details, image, full_name,rating } = review;
+    console.log(review_details)
     return (
         <div>
-            <Card>
+            <Card className='review-container'> 
                 <Card.Img className='card-image' variant="top" src={image} />
                 <Card.Body>
-                    <Card.Title>{full_name}</Card.Title>
+                    <Card.Title className='card-title'>{full_name}</Card.Title>
                     <Card.Text>
                         {review_details}
                     </Card.Text>
+                    <Card.Footer>
+                        {rating}
+                    </Card.Footer>
                 </Card.Body>
             </Card>
         </div>

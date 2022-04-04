@@ -11,6 +11,11 @@
 .heading-color {
     color:#914DE0;
 }
+.product-img { 
+    margin-left: 55px;
+    margin-top: 50px;
+    width: 100%;
+}
 .home-section .details-section {
     padding-left: 30px;
 }
@@ -36,7 +41,7 @@
         flex-direction: column;
     }
     .home-section img{
-        width: 100%;
+        width: 70%;
     }
     .home-section h1{
         margin-top: 0;
