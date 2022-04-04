@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import Product from "../../Assests/Images/product.png";
 import useReviews from '../../Hooks/useReviews';
-import Reviews from '../Reviews/Reviews';
+import Review from '../../Review/Review';
 import './Home.css';
 const Home = () => {
     const navigate = useNavigate();
@@ -27,13 +27,13 @@ const Home = () => {
             </Container>
             <Container>
                 <div>
-                    <h1 className='mt-5 mb-5 pt-5 fw-bold'>Customer Reviews({reviews.length})</h1>
+                    <h1 className='mt-5 mb-5 pt-5 fw-bold'>Customer Reviews(3)</h1>
                     <Row xs={1} md={2} lg={3} className="g-4 h-100">
-                            { 
-                                reviews.map((review, index) =>
-                                    <Reviews key={index}
-                                        review={review} />)
-                            }
+                        {
+                            reviews.slice(0, 3).map((review, index) =>
+                                <Review key={index}
+                                    review={review} />)
+                        }
                     </Row>
                     <button onClick={() => navigate('/reviews')} className='btn see-all-btn mt-4'>See All Reviews</button>
                 </div>

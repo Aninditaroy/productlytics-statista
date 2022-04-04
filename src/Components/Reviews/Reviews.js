@@ -1,24 +1,21 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
-import { BsFillStarFill } from 'react-icons/bs';
+import Review from '../../Review/Review';
+import useReviews from '../../Hooks/useReviews';
 import './Reviews.css';
-const Reviews = ({ review }) => {
-    const { review_details, image, full_name,rating } = review;
+import { Container, Row } from 'react-bootstrap';
+const Reviews = () => {
+    const [reviews] = useReviews();
     return (
-        <>
-            <Card className='review-container h-100'> 
-                <Card.Img className='card-image' variant="top" src={image} />
-                <Card.Body>
-                    <Card.Title className='card-title'>{full_name}</Card.Title>
-                    <Card.Text className="review-details">
-                        {review_details}
-                    </Card.Text>
-                    <Card.Footer className='border-0 d-flex justify-content-center align-items-center shadow-sm'>
-                        <span className='rating'>Rating: {rating}</span> <BsFillStarFill className='fill-star'/>
-                    </Card.Footer>
-                </Card.Body>
-            </Card>
-        </>
+        <div>
+            <Container>
+                <h2 className='review-heading'><span className='review'>What our customers say!</span></h2>
+                <Row xs={1} md={2} lg={3} className="g-4 h-100">
+                    {
+                        reviews.map(review => <Review review={review} />)
+                    }
+                </Row>
+            </Container>
+        </div>
     );
 };
 
