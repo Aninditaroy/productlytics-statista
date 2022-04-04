@@ -1,0 +1,11 @@
+.review-container {
+    width: 100%;
+} 
+.review-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image {
+    height: 150px;
+}

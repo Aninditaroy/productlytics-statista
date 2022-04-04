@@ -1,13 +1,18 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import Product from "../../Assests/Images/product.png";
+import useReviews from '../../Hooks/useReviews';
+import Reviews from '../Reviews/Reviews';
 import './Home.css';
 const Home = () => {
+    const navigate = useNavigate();
+    const [reviews] = useReviews();
     return (
-        <>
+        <div>
             <Container fluid className='home-section'>
                 <Row className='details-section'>
-                    <Col sm={12} md={7} className="mt-5">
+                    <Col sm={12} md={6} className="mt-5">
                         <h1 >Say Hello to Your next iMac</h1>
                         <h1 className='heading-color'>Fit perfectly into your life.</h1>
                         <div className='ps-5 pe-5 m-3'>
@@ -15,13 +20,25 @@ const Home = () => {
                         </div>
                         <button className='btn know-more-btn'><a target='_blank ' href="https://www.apple.com/imac-24/">Know More</a></button>
                     </Col>
-                    <Col sm={12} md={5}>
+                    <Col sm={12} md={4}>
                         <img src={Product} alt="" className='product-img' />
                     </Col>
                 </Row>
             </Container>
-           
-        </>
+            <Container>
+                <div>
+                    <h1 className='mt-5 mb-5 pt-5 fw-bold'>Customer Reviews({reviews.length})</h1>
+                    <Row xs={1} md={3} className="g-4">
+                            {
+                                reviews.map((review, index) =>
+                                    <Reviews key={index}
+                                        review={review} />)
+                            }
+                    </Row>
+                    <button onClick={() => navigate('/reviews')} className='btn see-all-btn mt-4'>See All Reviews</button>
+                </div>
+            </Container>
+        </div>
     );
 };
 
