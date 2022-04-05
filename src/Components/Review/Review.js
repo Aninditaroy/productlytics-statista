@@ -18,7 +18,7 @@ const Review = ({ review }) => {
                         <span className='rating'>Rating:</span><ReactStars 
                             value={rating}
                             size={30}
-                            color2={'#ffd700'} readonly/>
+                            color2={'#ffd700'} edit={false}/>
                     </Card.Footer>
                 </Card.Body>
             </Card>
